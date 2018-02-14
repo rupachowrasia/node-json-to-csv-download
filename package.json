@@ -1,0 +1,32 @@
+{
+  "name": "json-to-csv-download",
+  "version": "1.0.0",
+  "description": "App to convert json to csv and alllow user to download the file",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rupachowrasia/node-json-to-csv-download.git"
+  },
+  "keywords": [
+    "CSV",
+    "JSONtoCSV",
+    "JSON",
+    "CSVDownload"
+  ],
+  "author": "Rupa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rupachowrasia/node-json-to-csv-download/issues"
+  },
+  "homepage": "https://github.com/rupachowrasia/node-json-to-csv-download#readme",
+  "dependencies": {
+    "cloudant": "^1.10.0",
+    "express": "^4.16.2",
+    "json2csv": "^3.11.5",
+    "nodemon": "^1.14.12"
+  }
+}
